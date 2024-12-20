@@ -1,0 +1,244 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+navbar{
+    background-color: white;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: black;
+}
+
+.nav-link{
+    color: black;
+    font-size: 1rem;
+    font-weight:700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: white;
+    background-color: black;
+}
+
+.navbar-brand{
+   font-size: 1.25rem;
+   font-weight: 800;
+   color: black;
+   cursor: pointer;
+   text-decoration: none;
+}
+
+.main{
+    /*background:url("") no-repeat;*/
+    background-size: cover;
+    width:100%;
+    height:100vh;
+}
+
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+
+
+.main h6{
+    font-size:1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid rgb(52, 152, 219);
+    width: 40%;
+}
+
+.main .bt1{
+    height: 55px;
+    width: 138px;
+    background-color: rgb(52, 152, 219);
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius:5px;
+}
+
+.main .bt2{
+    height: 55px;
+    width: 138px;
+    background-color: transparent;
+    color: rgb(52, 152, 219);
+    outline: none;
+    border: 1px solid rgb(52, 152, 219);
+    font-weight: bold;
+    border-radius:5px;
+}
+
+.about img{
+    -webkit-box-shadow: 6px 4px 29px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 4px 29px -14px rgba(0,0,0,0.75);
+    box-shadow: 6px 4px 29px -14px rgba(0,0,0,0.75);
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+/*
+.progress{
+    background-color: rgb(223,219,219);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height:25px;
+    width:100%;
+}
+*/
+
+/*
+.pro-value1{
+  animation: load1 3s normal forwards;
+  border-radius:50px;
+  background-color: black;
+  height:25px;
+  width: 0;
+}
+*/
+
+/*
+.progress p{
+    color: white;
+    padding:12px;
+}
+*/
+
+/*
+@keyframes load1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 98
+    }
+}
+*/
+
+.card{
+    border: none;
+    outline: none;
+    -webkit-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+}
+
+/*
+.card p{
+    color: gray;
+}
+*/
+
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    color: black;
+    padding: 12px;
+    font-size:30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom:20px;
+}
+
+.control ul li{
+    list-style: none;
+    background-color: black;
+    padding: 5px 15;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.item{
+    position: relative;
+}
+
+.item span{
+    position: absolute;
+    top:40%;
+    left: 45%;
+    font-size: 40px;
+    color: black;
+    cursor: pointer
+}
+
+.button.active{
+  pointer-events:none;
+  background: white;
+  color: black;
+  box-shadow: 0 0 0.5rem rgb(0 0 0 / 0.2);
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #C6E7FF, #D4F6FF, #FBFBFB);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  right:0%;
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+
+.email {
+  background: #dd4b39;
+  color: white;
+}
+
+.github {
+  background: #6441a5;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+

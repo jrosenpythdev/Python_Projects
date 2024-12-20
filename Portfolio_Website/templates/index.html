@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel = "stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!--font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" type="image/x-icon" href="./static/assets/favicon.ico" >
+
+    <title>James Rosen</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary text-uppercase">
+      <div class="container-fluid">
+      <a class="navbar-brand font-weight-bold" href="#">James Rosen</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active px-lg-4 rounded" aria-current="page" href="#home">Home</a>
+            <a class="nav-link px-lg-4 rounded" href="#about">About</a>
+            <a class="nav-link px-lg-4 rounded" href="#skills">Skills</a>
+            <a class="nav-link px-lg-4 rounded" href="#portfolio">Portfolio</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+<!--     &lt;!&ndash; The social media icon bar &ndash;&gt;-->
+<!--    <div class="icon-bar">-->
+<!--      <a href="#" class="github"><i class="fa-brands fa-github"></i></a>-->
+<!--      <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>-->
+<!--    </div>-->
+
+    <!-- The social media icon bar -->
+    <div class="icon-bar">
+      <a href="mailto:someone@example.com" class="email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="#" class="github"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/james-rosen-72b350104" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    </div>
+
+
+
+    <!--main section -->
+    <section class = "main py-5 gradient-background" id = "home">
+      <div class = "container py-5">
+        <div class = "row py-5">
+          <div class = "col-lg-6 py-5 mr-auto">
+            <h3><small>Hello, I'm</small><br>
+                James
+            </h3>
+
+            <h6>Python Developer</h6>
+<!--            <input type = "button" value="My Work" class = "bt1 mt-5">-->
+<!--            <input type = "button" value="My CV " class ="bt2 mt-5">-->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class = "about py-5" id = "about">
+      <div class = "container py-5" >
+        <div class = "row">
+          <div class = "col-lg-5">
+            <img src = "./static/assets/img/mebeach.jpg" class = "img-fluid" alt = "" width="75%" height="75%">
+          </div>
+          <div class = "col-lg-7 pt-3">
+            <h1>About Me.</h1>
+            <p>PYTHON DEVELOPER</p>
+            <p class="py-3">I am <span class="fw-bold">James Rosen</span> a software developer with 8 years experience working with large companies such as HMRC and O2 designing, developing and testing case management applications.<br> <br>Eager to start a new career in python development!</p>
+
+            <!--
+            <div class = "progress">
+              <div class = "pro-value1">
+                <p>HTML / CSS <span text-white float-right>95%</span></p>
+              </div>
+            </div>
+            -->
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class = "services py-5 gradient-background" >
+      <div class = "container text-center py-5">
+        <h1 class = "text-center pb-5" id = "skills">My Skills.</h1>
+        <div class = "control">
+          <ul>
+              <li class = "button active" data-filter = "Frontend">Front-End</li>
+              <li class = "button" data-filter = "Backend">Back-End</li>
+              <li class = "button" data-filter = "Languages">Languages</li>
+              <li class = "button" data-filter="Other Skills">Other Skills</li>
+              <li class = "button" data-filter="All">All</li>
+          </ul>
+        </div>
+        <div class = "row pb-3 skills-list">
+          <!--python-->
+          <div class = "col-lg-4 mb-3 skill" data-category = "Languages">
+            <div class = "card text-center py-3">
+              <div class = "card-body">
+                <div class = "circle">
+                  <span><img src = "./static/assets/img/python.svg" style="position:relative;right:27px; top:-28px;"></span>
+              </div>
+                <h4 class = "font-weight-bold pb-2">Python</h4>
+            </div>
+          </div>
+        </div>
+          <!--flask-->
+          <div class = "col-lg-4 mb-3 skill" data-category = "Backend">
+            <div class = "card text-center py-3">
+              <div class = "card-body">
+                <div class = "circle">
+                  <span><img src = "./static/assets/img/flask.svg" style="position:relative;right:8px; top:-14px;"></span>
+              </div>
+                <h4 class = "font-weight-bold pb-2">Flask</h4>
+            </div>
+          </div>
+        </div>
+          <!--bootstrap-->
+          <div class = "col-lg-4 mb-3 skill" data-category="Frontend">
+            <div class = "card text-center py-3">
+              <div class = "card-body">
+                <div class = "circle">
+                  <span><img src = "./static/assets/img/bootstrap.svg" style="position:relative; right:2px; top:-5px;"></span>
+              </div>
+                <h4 class = "font-weight-bold pb-2">Bootstrap</h4>
+            </div>
+          </div>
+        </div>
+          <!--Pandas-->
+          <div class = "col-lg-4 mb-3 skill" data-category="Backend">
+            <div class = "card text-center py-3">
+              <div class = "card-body">
+                <div class = "circle">
+                  <span><img src = "./static/assets/img/pandas.svg" style="position:relative; right:9px; top:-7px;"></span>
+              </div>
+                <h4 class = "font-weight-bold pb-2">Pandas</h4>
+            </div>
+          </div>
+        </div>
+          <!--numpy-->
+          <div class = "col-lg-4 mb-3 skill" data-category="Backend">
+            <div class = "card text-center py-3">
+              <div class = "card-body">
+                <div class = "circle">
+                  <span><img src = "./static/assets/img/numpy.svg" style="position:relative; right:9px; top:-10px;"></span>
+              </div>
+                <h4 class = "font-weight-bold pb-2">NumPy</h4>
+            </div>
+          </div>
+        </div>
+          <!--tkinter-->
+          <div class = "col-lg-4 mb-3 skill" data-category="Frontend">
+            <div class = "card text-center py-3">
+              <div class = "card-body">
+                <div class = "circle">
+                  <span><img src = "./static/assets/img/tkinter.svg" style="position:relative;right:6px; top:-6px;"></span>
+              </div>
+                <h4 class = "font-weight-bold pb-2">tk inter</h4>
+            </div>
+          </div>
+        </div>
+          <!--Selenium-->
+          <div class = "col-lg-4 mb-3 skill" data-category="Frontend">
+            <div class = "card text-center py-3">
+              <div class = "card-body">
+                <div class = "circle">
+                  <span><img src = "./static/assets/img/selenium.svg" style="position:relative;right:9px; top:-9px;"></span>
+              </div>
+                <h4 class = "font-weight-bold pb-2">Selenium</h4>
+            </div>
+          </div>
+        </div>
+          <!--Beautiful Soup-->
+          <div class = "col-lg-4 mb-3 skill" data-category="Frontend">
+            <div class = "card text-center py-3">
+              <div class = "card-body">
+                <div class = "circle">
+                  <span><img src = "./static/assets/img/beautifulsoup.svg" style="position:relative;right:9px; top:-8px;"></span>
+              </div>
+                <h4 class = "font-weight-bold pb-2">Beautiful Soup</h4>
+            </div>
+          </div>
+        </div>
+          <!--AWS-->
+          <div class = "col-lg-4 mb-3 skill" data-category="Other Skills">
+            <div class = "card text-center py-3">
+              <div class = "card-body">
+                <div class = "circle">
+                  <span><img src = "./static/assets/img/aws.svg" style="position:relative;right:9px; top:-9px;"></span>
+              </div>
+                <h4 class = "font-weight-bold pb-2">AWS</h4>
+            </div>
+          </div>
+        </div>
+          <!--Git Hub-->
+          <div class = "col-lg-4 mb-3 skill" data-category="Other Skills">
+          <div class = "card text-center py-3">
+            <div class = "card-body">
+              <div class = "circle">
+                <span><img src = "./static/assets/img/github.svg" style="position:relative;right:9px; top:-10px;"></span>
+            </div>
+              <h4 class = "font-weight-bold pb-2">Git Hub</h4>
+          </div>
+        </div>
+      </div>
+          <!--turtle-->
+          <div class = "col-lg-4 mb-3 skill" data-category="Frontend">
+      <div class = "card text-center py-3">
+        <div class = "card-body">
+          <div class = "circle">
+            <span><img src = "./static/assets/img/turtle.svg" style="position:relative;right:9px; top:-11px;"></span>
+        </div>
+          <h4 class = "font-weight-bold pb-2">Turtle</h4>
+      </div>
+    </div>
+    </div>
+          <!--Pega-->
+          <div class = "col-lg-4 mb-3 skill" data-category="Other Skills">
+      <div class = "card text-center py-3">
+        <div class = "card-body">
+          <div class = "circle">
+            <span><img src = "./static/assets/img/pegasus.svg" style="position:relative;right:9px; top:-4px;"></span>
+        </div>
+          <h4 class = "font-weight-bold pb-2">Pega</h4>
+      </div>
+    </div>
+    </div>
+        <!--HTML-->
+          <div class = "col-lg-4 mb-3 skill" data-category="Frontend">
+      <div class = "card text-center py-3">
+        <div class = "card-body">
+          <div class = "circle">
+            <span><img src = "./static/assets/img/html.svg" style="position:relative;right:9px; top:-8px;"></span>
+        </div>
+          <h4 class = "font-weight-bold pb-2">HTML</h4>
+      </div>
+    </div>
+    </div>
+        <!--CSS-->
+          <div class = "col-lg-4 mb-3 skill" data-category="Frontend">
+      <div class = "card text-center py-3">
+        <div class = "card-body">
+          <div class = "circle">
+            <span><img src = "./static/assets/img/css.svg" style="position:relative;right:9px; top:-8px;"></span>
+        </div>
+          <h4 class = "font-weight-bold pb-2">CSS</h4>
+      </div>
+    </div>
+    </div>
+        <!--javascript-->
+          <div class = "col-lg-4 mb-3 skill" data-category="Frontend">
+      <div class = "card text-center py-3">
+        <div class = "card-body">
+          <div class = "circle">
+            <span><img src = "./static/assets/img/javascript.svg" style="position:relative;right:9px; top:-9px;"></span>
+        </div>
+          <h4 class = "font-weight-bold pb-2">Javascript</h4>
+      </div>
+    </div>
+    </div>
+        <!--java-->
+          <div class = "col-lg-4 mb-3 skill" data-category="Languages">
+      <div class = "card text-center py-3">
+        <div class = "card-body">
+          <div class = "circle">
+            <span><img src = "./static/assets/img/java.svg" style="position:relative;right:9px; top:-11px;"></span>
+        </div>
+          <h4 class = "font-weight-bold pb-2">Java</h4>
+      </div>
+    </div>
+    </div>
+        <!--SQL Alchemy-->
+          <div class = "col-lg-4 mb-3 skill" data-category="Backend">
+      <div class = "card text-center py-3">
+        <div class = "card-body">
+          <div class = "circle">
+            <span><img src = "./static/assets/img/alchemy.svg" style="position:relative;right:9px; top:-9px;"></span>
+        </div>
+          <h4 class = "font-weight-bold pb-2">SQL Alchemy</h4>
+      </div>
+    </div>
+    </div>
+        <!--Postman-->
+        <div class = "col-lg-4 mb-3 skill" data-category="Other Skills">
+        <div class = "card text-center py-3">
+          <div class = "card-body">
+            <div class = "circle">
+             <span><img src = "./static/assets/img/postman.svg" style="position:relative;right:9px; top:-9px;"></span>
+            </div>
+              <h4 class = "font-weight-bold pb-2">Postman</h4>
+          </div>
+        </div>
+        </div>
+        <!--sql-->
+        <div class = "col-lg-4 mb-3 skill" data-category="Backend">
+          <div class = "card text-center py-3">
+            <div class = "card-body">
+              <div class = "circle">
+               <span><img src = "./static/assets/img/sql.svg" style="position:relative;right:9px; top:-9px;"></span>
+              </div>
+                <h4 class = "font-weight-bold pb-2">SQL</h4>
+            </div>
+          </div>
+        </div>
+<!--      </div>-->
+  </section>
+
+    <section class = "services py-5">
+      <div class = "container text-center py-5">
+        <h1 class = "text-center pb-5" id = "portfolio">Portfolio.</h1>
+        <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+            <img src="./static/assets/img/snake_ss_2.png" class="card-img-top" alt="snake_screenshot" width="500" height="125">
+            <div class="card-body">
+              <h5 class="card-title">Snake</h5>
+              <p class="card-text">The classic snake game built using python's Turtle library</p>
+              <a href="#" class="btn btn-primary">Git Hub</a>
+            </div>
+          </div>
+        </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+            <img src="./static/assets/img/coffee_wifi_screenshot.png" class="card-img-top" alt="coffee_wifi" height="125">
+            <div class="card-body">
+              <h5 class="card-title">Cafe and Wi-Fi website</h5>
+              <p class="card-text">This Website built using Flask and WTForms lists cafes and their wifi and power capabilities</p>
+              <a href="#" class="btn btn-primary">Git Hub</a>
+            </div>
+          </div>
+        </div>
+          <div class="col">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+            <img src="./static/assets/img/iss.webp" class="card-img-top" alt="iss" height="125">
+            <div class="card-body">
+              <h5 class="card-title">ISS Overhead Notifier</h5>
+              <p class="card-text">International Space Station tracker uses ISS API to notify the user when it's orbiting above their location</p>
+              <a href="#" class="btn btn-primary">Github</a>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="col">
+
+        </div>
+
+      </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+            <img src="./static/assets/img/passwordmanager.png" class="card-img-top" alt="psswd_manager" width="500" height="125">
+            <div class="card-body">
+              <h5 class="card-title">Password Manager</h5>
+              <p class="card-text">Password Manager built using the Tkinter Library allows you to store and retrieve user credentials</p>
+              <a href="#" class="btn btn-primary">Git Hub</a>
+            </div>
+          </div>
+        </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+            <img src="./static/assets/img/cookie_bot_2.png" class="card-img-top" alt="cookie_bot" width="500" height="125">
+            <div class="card-body">
+              <h5 class="card-title">Cookie Bot</h5>
+              <p class="card-text">Selenium bot built to play the popular online game 'Cookie Clicker'</p>
+              <a href="#" class="btn btn-primary">Git Hub</a>
+            </div>
+          </div>
+        </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+            <img src="./static/assets/img/workouttracker.png" class="card-img-top" alt="psswd_manager" width="500" height="125">
+            <div class="card-body">
+              <h5 class="card-title">Workout Tracker using NLP</h5>
+              <p class="card-text">App takes NL descriptions of a user's workout and stores the relevant data in a google sheet</p>
+              <a href="#" class="btn btn-primary">Git Hub</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+
+    <div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary">© 2024 James Rosen</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+    </ul>
+  </footer>
+</div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./static/javascript/script.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+
+
+</html>
